@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #F8F7F4;
+  --ink: #111113;
+  --accent: #EA580C;
+  --theme-emerald-primary: #111113;
+  --theme-emerald-vibrant: #EA580C;
+  --theme-emerald-light: #F8F7F4;
+  --theme-emerald-border: #111113;
+}
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    color: var(--ink);
+    background-color: var(--bg);
+  }
+
+  ::selection {
+    background-color: var(--accent);
+    color: var(--bg);
+  }
+}
+
+.font-display {
+  font-family: 'Oswald', sans-serif;
+}
+
+.font-body {
+  font-family: 'Inter', sans-serif;
+}
+
+.label-mono {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+}
+
+.card-brutal {
+  border: 2px solid var(--ink);
+  background: #ffffff;
+  box-shadow: 12px 12px 0 var(--ink);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card-brutal-sm {
+  border: 2px solid var(--ink);
+  background: #ffffff;
+  box-shadow: 6px 6px 0 var(--ink);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-primary-brutal {
+  background: var(--ink);
+  color: var(--bg);
+  padding: 1.25rem 3rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid var(--ink);
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.15s ease;
+}
+
+.btn-primary-brutal:hover {
+  background: var(--accent);
+  border-color: var(--ink);
+  box-shadow: 6px 6px 0 var(--ink);
+  transform: translate(-2px, -2px);
+}
+
+.btn-primary-brutal:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+  border-left: 2px solid var(--ink);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--ink);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}

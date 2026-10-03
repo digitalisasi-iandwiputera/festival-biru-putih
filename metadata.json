@@ -1,0 +1,8 @@
+{
+  "name": "VERSI OFFLINE - Belajar Sesuai Gaya Kamu",
+  "description": "Platform belajar multi-format untuk siswa SMP dengan teks imersif, pelajaran audio guru-siswa, slide bersuara, peta konsep, dan deteksi celah pemahaman interaktif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

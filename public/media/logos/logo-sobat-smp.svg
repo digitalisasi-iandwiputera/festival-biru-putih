@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260" width="100%" height="100%">
+  <defs>
+    <!-- 3D Shadow filter -->
+    <filter id="shadow3d" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="1" flood-color="#0284c7" />
+    </filter>
+  </defs>
+
+  <!-- Blue Background Outline Ribbon/Halo -->
+  <g transform="translate(260, 110)">
+    <!-- Blue Halo Silhouette -->
+    <ellipse cx="0" cy="0" rx="205" ry="92" fill="#0284c7" />
+    <ellipse cx="0" cy="0" rx="195" ry="84" fill="#ffffff" />
+    <ellipse cx="0" cy="0" rx="185" ry="76" fill="#0284c7" />
+
+    <!-- SOBAT (Gold 3D Bubble text) -->
+    <text x="-65" y="-12" text-anchor="middle" font-family="'Plus Jakarta Sans', Impact, Arial, sans-serif" font-weight="900" font-size="78" fill="#eab308" stroke="#78350f" stroke-width="3" letter-spacing="1">
+      SOBAT
+    </text>
+
+    <!-- Thumbs Up Icon near the O in SOBAT -->
+    <g transform="translate(-105, -55) scale(0.65)">
+      <circle cx="20" cy="20" r="24" fill="#ffffff" stroke="#0284c7" stroke-width="4" />
+      <path d="M 12,24 L 20,24 C 23,24 24,20 22,14 C 20,9 18,2 24,2 C 28,2 29,8 29,14 L 29,17 L 34,17 C 37,17 38,19 37,22 L 35,25 C 38,25 39,27 38,30 L 36,33 C 38,33 39,35 38,37 L 34,42 C 32,44 28,44 24,44 L 12,44 Z" fill="#ffffff" stroke="#1e293b" stroke-width="2.5" />
+    </g>
+
+    <!-- SMP (Gold 3D Bubble text) -->
+    <text x="50" y="58" text-anchor="middle" font-family="'Plus Jakarta Sans', Impact, Arial, sans-serif" font-weight="900" font-size="82" fill="#eab308" stroke="#78350f" stroke-width="3.5" letter-spacing="2">
+      SMP
+    </text>
+  </g>
+
+  <!-- Subtitle Bottom: Pendidikan Bermutu • Karakter Kuat • Prestasi Hebat -->
+  <text x="260" y="240" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="800" font-size="16" fill="#0284c7" letter-spacing="0.5">
+    Pendidikan Bermutu <tspan fill="#0284c7">●</tspan> Karakter Kuat <tspan fill="#0284c7">●</tspan> Prestasi Hebat
+  </text>
+</svg>

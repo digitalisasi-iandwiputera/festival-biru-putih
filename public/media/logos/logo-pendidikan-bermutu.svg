@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" width="100%" height="100%">
+  <defs>
+    <!-- Hashtag Gradient -->
+    <linearGradient id="hashGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left # Symbol (Italic/Tilted Hashtag) -->
+  <g transform="translate(15, 10)">
+    <!-- Slanted Bar 1 -->
+    <polygon points="65,15 90,15 62,175 37,175" fill="url(#hashGrad)" />
+    <!-- Slanted Bar 2 -->
+    <polygon points="120,15 145,15 117,175 92,175" fill="url(#hashGrad)" />
+    <!-- Crossbar Top -->
+    <polygon points="20,70 160,70 156,96 16,96" fill="url(#hashGrad)" />
+    <!-- Crossbar Bottom -->
+    <polygon points="12,118 152,118 148,144 8,144" fill="url(#hashGrad)" />
+  </g>
+
+  <!-- Right Typography -->
+  <g transform="translate(175, 0)">
+    <!-- PENDIDIKAN (Red Italic) -->
+    <text x="0" y="75" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-style="italic" font-size="48" fill="#e11d48" letter-spacing="1">
+      PENDIDIKAN
+    </text>
+    <!-- BERMUTU (Red Italic) -->
+    <text x="0" y="125" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-style="italic" font-size="48" fill="#e11d48" letter-spacing="1">
+      BERMUTU
+    </text>
+    <!-- UNTUK SEMUA (Blue Italic Bold) -->
+    <text x="0" y="172" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-style="italic" font-size="44" fill="#0284c7" letter-spacing="1.5">
+      UNTUK SEMUA
+    </text>
+  </g>
+</svg>
